@@ -4,33 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header Section -->
   <header>
     <h1>My Portfolio</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
+  <!-- Main Section -->
   <main>
     <article>
-      <section>
+      <section id="about">
         <h2>About Me</h2>
-        <p>This is where I introduce myself.</p>
+        <p>Hello! I am a web developer passionate about creating clean, modern, and responsive websites. This is a simple portfolio project to practice HTML, CSS, and JavaScript.</p>
       </section>
-      <section>
+
+      <section id="projects">
         <h2>Projects</h2>
-        <p>Here I will list my projects.</p>
+        <p>Here I will list my projects with descriptions and links.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at <a href="mailto:nandkishormundhe631@gmail.com">nandkishormundhe631@email.com</a>.</p>
       </section>
     </article>
   </main>
 
+  <!-- Footer Section -->
   <footer>
-    <p>© 2025 My Portfolio</p>
+    <p>© 2025 My Portfolio | Designed with ❤️</p>
   </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
